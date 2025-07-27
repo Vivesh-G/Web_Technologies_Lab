@@ -1,0 +1,42 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
+}
+
+.resume-header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.resume-header p{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.resume-section h2{
+    margin: 0 0px;
+}
+
+.resume-section p{
+    margin: 8px 0px;
+}
+
+.resume-section li{
+    margin: 8px 0px;
+}
+
+
+.resume-element{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0px;
+}
+
+.sub-content {
+    font-size: 12px;
+    margin: 0 0px;
+    padding: 0px;
+}
