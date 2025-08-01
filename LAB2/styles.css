@@ -1,0 +1,32 @@
+.weatherCard {
+    text-align: center;
+    border: black solid;
+    background-color: rgb(137, 218, 255);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.weatherData h2 {
+    font-weight: bold;
+}

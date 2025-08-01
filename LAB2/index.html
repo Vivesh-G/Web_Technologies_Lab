@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="weatherCard">
+            <!--Title-->
+            <h1>Weather</h1>
+
+            <!--Input to get city Name-->
+            <div class="weatherInput">
+                <input type="text" id="cityInput" placeholder="Enter City"></input>
+                <button id="submitBtn" onclick="getWeather()">Search</input>
+            </div>
+
+            <!--This will be updated by DOM manipulation-->
+            <div id="weatherData" class="Card hidden" >
+                <h2 id="cityName"></h2>
+                <img id="weatherIcon" alt="WEATHER ICON" />
+                <p id="description"></p>
+                <p id="temperature"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+
+            <!--Error Display-->
+            <p id="errorMsg" class="error hidden"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
