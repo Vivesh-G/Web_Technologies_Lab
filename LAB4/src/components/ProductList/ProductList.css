@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+  font-weight: 900;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  justify-content:  center;
+  font-weight:  bold;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+.category-header {
+  font-weight: bold;
+  padding: 6px;
+  color:black;
+}
