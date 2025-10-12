@@ -1,0 +1,49 @@
+.App {
+  min-height: 100vh;
+  background-color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #000;
+  color: #fff;
+}
+
+.card {
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  background-color: #000;
+  color: #fff;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-text {
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  background-color: #272626;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-brand {
+  color: #ff0000;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
